@@ -20,8 +20,3 @@ The model utilizes synthetic data representative of psychometric assessments mea
 2. **Psychological Safety:** The moderator.
 3. **Self-Disclosure:** The secondary moderator.
 4. **Retention Probability:** The dependent variable/outcome.
-
-## How to Deploy
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Execute `analysis.py` to generate the predictive model and interactive visualizations.
