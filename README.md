@@ -1,50 +1,27 @@
-# Workplace Intelligence Analytics SSD Minority Stress Retention
+# Predictive Workforce Intelligence: Minority Stress & Retention Modeling
+**Target Cohort: Homosexual Males in STEM**
 
-## Executive Overview
-This repository contains a comprehensive quantitative analysis and technical visualization suite exploring the psychological drivers of human capital retention within STEM industries. The project investigates the relationship between Sexual Self-Disclosure (SSD), Minority Stress levels, and their combined impact on long-term Job Retention. By integrating I-O Psychology frameworks with data science methodologies, this project provides a data-driven roadmap for optimizing organizational culture and talent preservation strategies.
+## Executive ROI & Strategic Impact
+This repository serves as a technical proof-of-concept for bridging Industrial-Organizational (I-O) Psychology with predictive People Analytics. By focusing on the specific stressors faced by **Homosexual Males in STEM**, this analytical engine enables organizations to:
 
----
+* **Forecast Attrition Risk:** Move from descriptive "historical" turnover reporting to a 12-month predictive risk forecast using Monte Carlo simulations.
+* **Identify Moderating Buffers:** Quantitatively demonstrate how "Psychological Safety" and "Self-Disclosure" act as primary buffers to mitigate the negative impact of minority stress on retention.
+* **Optimize Human Capital P&L:** Identify high-risk turnover zones to enable targeted interventions, preserving the high cost of replacement for specialized STEM roles.
 
-## Strategic Theoretical Framework
-The analytical models within this project are grounded in established behavioral science theories to ensure the data is contextualized within the professional environment:
+## Technical Architecture
+* **Core Language:** Python 3.10+
+* **Analytical Stack:** NumPy, Pandas, Scikit-learn
+* **Statistical Logic:** Multiple Linear Regression integrated with a 10,000-iteration Monte Carlo Simulation.
+* **Visualization:** High-fidelity 3D Surface Plots (via Plotly) to visualize the interaction between stressors and retention.
 
-* Minority Stress Theory: Examining the unique chronic stressors faced by marginalized individuals in high-pressure sectors.
-* Cognitive Dissonance Theory: Analyzing the psychological impact when workplace identity conflicts with personal identity.
-* Goffman’s Stigma Theory: Evaluating the management of social identity and its influence on professional engagement.
+## Methodology
+The model utilizes synthetic data representative of psychometric assessments measuring:
+1. **Minority Stress:** The independent variable/stressor.
+2. **Psychological Safety:** The moderator.
+3. **Self-Disclosure:** The secondary moderator.
+4. **Retention Probability:** The dependent variable/outcome.
 
----
-
-## Core Analytical Variables
-
-### Sexual Self-Disclosure (SSD)
-Measures the willingness of individuals to disclose their sexual identity in professional settings. This is treated as a primary indicator of psychological safety and organizational inclusivity.
-
-### Minority Stress
-Quantifies the distal and proximal stressors that impact cognitive load and professional longevity. Higher stress levels (captured through metrics MS_1 through MS_10) are modeled against turnover risk to identify critical exit triggers.
-
-### Job Retention
-The primary outcome variable (captured through metrics JB_1 through JB_10). This analysis determines how organizational environment and identity integration directly correlate with the decision to remain within a firm or the broader STEM industry.
-
----
-
-## Technical Methodology
-
-### Data Processing & Scrubbing
-The underlying dataset consists of psychometric Likert-scale responses from industry professionals. The technical workflow includes:
-* Data Normalization: Cleaning and scaling raw psychometric data using Python.
-* Variable Aggregation: Computing mean scores for Minority Stress, Willingness to Self-Disclose, and Job Retention from multi-item sub-scales.
-* Validation: Ensuring data integrity for predictive modeling.
-
-### Visualization & Modeling
-This project leverages Google Colab and a robust technical stack to produce executive-level insights:
-* Python: Core analytical processing.
-* Plotly & Seaborn: High-fidelity 2D and 3D visualization.
-* Predictive Modeling: Identifying interaction effects between variables to forecast retention outcomes.
-
----
-
-## Strategic ROI & Application
-The findings in this repository allow organizational leaders to:
-1. Identify Leading Indicators: Detect potential turnover trends before they impact organizational stability.
-2. Targeted Interventions: Design diversity and inclusion initiatives backed by quantitative rigor.
-3. Competitive Advantage: Enhance organizational performance by fostering high-trust, high-retention cultures.
+## How to Deploy
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Execute `analysis.py` to generate the predictive model and interactive visualizations.
