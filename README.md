@@ -1,0 +1,2 @@
+# Workforce-Intelligence-Analytics-SSD-Minority-Stress-and-Retention
+Quantitative analysis of human capital stability focusing on the intersection of Sexual Self-Disclosure (SSD), Minority Stress, and Job Retention. This repository features predictive models and 3D visualizations developed in Python to identify behavioral inflection points that impact talent preservation and strategic ROI in STEM sectors.
